@@ -1,6 +1,6 @@
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
-import stripe from 'stripe';
+import { stripe } from '../services/stripe'
 
 
 import { SubscribeButton } from '../components/SubscribeButton';
